@@ -1,0 +1,47 @@
+.main {
+    background-color: rgb(35, 35, 35);
+    color: white;
+    display: flex;
+    gap: 4em;
+    height: 30vh;
+}
+
+.box{
+    /* border: 1px solid white; */
+    width: 30%;
+    padding: 2em;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.heading{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.para{
+    color: rgb(150, 150, 150);
+}
+
+.main2 {
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    height: 5vh;
+
+    span {
+        color: red;
+    }
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    color: rgb(150, 150, 150);
+}

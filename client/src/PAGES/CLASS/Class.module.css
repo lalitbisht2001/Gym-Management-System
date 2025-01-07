@@ -1,0 +1,52 @@
+.main {
+    height: 60vh;
+}
+
+.header {
+    height: 45vh;
+    width: 100%;
+    background-image: url('/Class.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.allclass {
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.6);
+    font-size: 4em;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+}
+
+.link_div {
+    position: absolute;
+    top: 92%;
+    left: 40%;
+    background-color: #fb5b21;
+    height: 7vh;
+    width: 28vh;
+    border-radius: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    p{
+        color: rgb(82, 82, 82);
+        font-size: 1.4em;
+        font-weight: 900;
+    }
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.1em;
+}

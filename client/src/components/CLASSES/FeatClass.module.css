@@ -1,0 +1,90 @@
+.main {
+    margin-top: 5em;
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading_box{
+    /* border: 1px solid black; */
+    width: 75%;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.heading{
+    font-family: sans-serif;
+    font-size: 2em;
+}
+
+.line{
+    width: 57%;
+    height: 0.1em;
+    background-color: rgb(199, 199, 199);
+}
+
+.arrow_div{
+    display: flex;
+    gap: 0.5em;
+    justify-content: center;
+    /* border: 1px solid black; */
+    align-items: center;
+}
+.arrow_box{
+    height: 1.5em;
+    width: 1.5em;
+    font-size: 1.5em;
+    background-color: orangered;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.class{
+    margin-top: 2em;
+    width: 75%;
+    display: flex;
+    gap: 3em;
+}
+
+.box{
+    width: 45vh;
+    /* border: 1px solid black; */
+    height:40vh;
+    background-color: whitesmoke;
+    img{
+        width: 100%;
+        height : 60%;
+    }
+}
+
+.info{
+    width: 100%;
+    padding: 1.5em;
+}
+.name{
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+.trainer_div{
+    font-family: sans-serif;
+    font-size: 1em;
+    display: flex;
+    padding-top: 1em;
+    display: flex;
+    gap: 0.8em;
+}
+
+.trainer{
+    color: rgb(106, 106, 106);
+}
+.icons{
+    color: orangered;
+}
