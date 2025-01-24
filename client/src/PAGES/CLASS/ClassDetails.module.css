@@ -43,13 +43,13 @@
     padding-bottom: 0.7em;
 }
 
-.time{
+.time {
     font-size: 1.1em;
     font-family: sans-serif;
     color: rgb(73, 72, 72);
 }
 
-.btn{
+.btn {
     text-decoration: none;
     color: white;
     border-radius: 1.5em;
@@ -57,5 +57,38 @@
     cursor: pointer;
     font-size: 1.3em;
     font-family: sans-serif;
-    background-color:#fb5b21;
+    background-color: #fb5b21;
+}
+
+.pricing {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 71.5%;
+    margin: 0%;
+    height: 7vh;
+    align-items: center;
+}
+
+.pheading {
+    width: 25vh;
+    border: 2px solid #fb5b21;
+    color: white;
+    background-color: #fb5b21;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+
+.price {
+    width: 25vh;
+    border: 2px solid #fb5b21;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 1.2em;
 }

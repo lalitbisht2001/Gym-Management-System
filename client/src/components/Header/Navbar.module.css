@@ -1,22 +1,27 @@
 .main {
-    /* border: 1px solid red; */
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+    position: fixed;
+    top: 0;
     width: 100%;
-    height: 12vh;
+    height: 13vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0em 5em;
-    /* position: fixed; */
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease; 
+    z-index: 1000;
+}
+
+.scrolled {
+    background-color: rgba(0, 0, 0, 0.8); 
+    transform: translateY(-10px); 
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px; 
 }
 
 .logo_div {
-    height: 8vh;
-    width: 10vh;
-    /* border: 1px solid black; */
+    height: 38vh;
+    width: 38vh;
 }
 
 .logo {
@@ -25,7 +30,6 @@
 }
 
 .navbar {
-    /* border: 1px solid black; */
     display: flex;
     gap: 9em;
 }
@@ -39,9 +43,14 @@
 
 .link {
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: sans-serif;
     cursor: pointer;
+    transition: color 0.3s ease; 
+}
+
+.link:hover {
+    color: orangered;
 }
 
 .btn_div {
@@ -51,15 +60,17 @@
     align-items: center;
 }
 
-
-
 .btn {
     text-decoration: none;
-    color: black;
     font-family: sans-serif;
-    background-color: red;
     color: white;
+    background-color: orangered;
     padding: 0.4em 1em;
     border-radius: 0.3em;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: darkred;
 }

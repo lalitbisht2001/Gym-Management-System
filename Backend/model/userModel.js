@@ -1,11 +1,34 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
-mongoose.connect(`mongodb://127.0.0.1:27017/gymDatabase`);
+const userSchema = new mongoose.Schema(
+    {
+        name: {
+            type: String,
+            required: true,
+            trim: true,
+        },
+        email: {
+            type: String,
+            required: true,
+            unique: true,
+            trim: true,
+            match: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+        },
+        password: {
+            type: String,
+            required: true,
+            minlength: 6,
+        },
+        course: [
+            {
+                type: mongoose.Schema.Types.ObjectId,
+                ref: "Course",
+            },
+        ],
+    },
+    {
+        timestamps: true,
+    }
+);
 
-const userSchema = mongoose.Schema({
-    name: String,
-    email: String,
-    password: String,
-});
-
-module.exports = mongoose.model("user", userSchema);
+module.exports = mongoose.model("User", userSchema);

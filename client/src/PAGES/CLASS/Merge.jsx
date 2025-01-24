@@ -78,9 +78,11 @@ const Merge = () => {
                                 <p className={style.t}>{t2}</p><p className={style.w1}>{w2}</p>
                             </div>
                         </div>
-                        <div className={style.link_box}>
-                            <NavLink to={link} className={style.link}>{name}</NavLink>
-                        </div>
+                        <NavLink to={link} className={style.link_box} >
+                            <p className={style.link}>
+                                {name}
+                            </p>
+                        </NavLink>
                     </div>
                 ))
             }
